@@ -12,7 +12,9 @@ dependencies = [
 ]
 
 [project.scripts]
-first-project = "first_project:main"
+openai = "first_project.hello:openai"
+gemini = "first_project.hello:gemini"
+gemini2 = "first_project.hello:gemini2"
 
 [build-system]
 requires = ["hatchling"]
